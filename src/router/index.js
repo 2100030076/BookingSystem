@@ -1,4 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { createApp } from 'vue';
+import App from './App.vue';
+import './main.css';
+
+createApp(App).mount('#app');
 
 
 import HomeView from "../views/HomeView.vue";
